@@ -32,7 +32,7 @@ that is needed.
 |------|-------------|:----:|
 | [main.tf](./env/dev/main.tf) | AWS provider |  |
 | [lambda.tf](./env/dev/lambda.tf) | Lambda function |  |
-| [lb.tf](./env/dev/tf) | ALB, Target Group, S3 bucket for access logs  |  |
+| [lb.tf](./env/dev/lb.tf) | ALB, Target Group, S3 bucket for access logs  |  |
 | [lb-http.tf](./env/dev/lb-http.tf) | HTTP listener, NSG rule | Yes |
 | [lb-https.tf](./env/dev/lb-https.tf) | HTTPS listener, NSG rule | |
 | [dns-cert.tf](./env/dev/dns-cert.tf) | Route53 entry and ACM Certificate |  |
